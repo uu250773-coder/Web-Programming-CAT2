@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <!-- Meta Essentials -->
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Legacy Computer Services LTD - Professional legacy system maintenance and student-led IT solutions.">
+    <meta name="theme-color" content="#0d9c43">
+
+    <title>Legacy Computer Services</title>
+
+    <!-- Preconnect for faster font loading -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
+    <!-- Poppins Font (swap for zero layout shift) -->
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap" rel="stylesheet">
+
+    <!-- Main Stylesheet -->
+    <link rel="stylesheet" href="/css/index.css">
+
+    <!-- Internal Style -->
+     <style>
+        .container-footer p{
+            font-size: 1.2rem;
+        }
+
+     </style>
+</head>
+<body>
+    <!-- Skip to main content (keyboard accessibility) -->
+    <a href="#main" class="sr-only">Skip to main content</a>
+
+    <!-- Header -->
+    <header class="header" role="banner">
+        <!-- Navigation Section -->
+        <nav class="nav container" aria-label="Primary navigation">
+            <ul class="nav__list">
+                <li><a href="./index.html" class="nav__link active" aria-current="page">Home</a></li>
+                <li><a href="./html/services.html" class="nav__link">Services</a></li>
+                <li><a href="./html/about_us.html" class="nav__link">About Us</a></li>
+                <!-- <li><a href="./team-members.html" class="nav__link">Our Team</a></li> -->
+            </ul>
+        </nav>
+    </header>
+
+    <!-- Main content -->
+    <main id="main" class="main">
+        <!-- Login form -->
+        <section class="form" aria-labelledby="login-heading">
+            <form action="" method="POST" novalidate>
+                <!-- Login Header -->
+                <div class="login-header">
+                    <h1 id="login-heading">Login Form</h1>
+                </div>
+
+                <div class="form__fields">
+                    <!-- User name -->
+                    <div class="holders">
+                        <label for="username" class="form__label">User-Name</label>
+                        <input type="text" id="username" name="username" class="form__input" autocomplete="username" required>
+                    </div>
+                    
+                    <!-- password -->
+                    <div class="holders">
+                        <label for="password" class="form__label">Password</label>
+                        <input type="password" id="password" name="password" class="form__input" autocomplete="current-password" required>
+                    </div>
+                     
+                    <!-- Button -->
+                    <div class="holders">
+                        <button type="submit" class="form__submit">Submit</button>
+                    </div>
+                </div>
+            </form>
+        </section>
+
+        <!-- Meet Our Team CTA -->
+        <div class="team-button-container">
+            <a href="./html/team-members.html" class="cta-button">
+                <span class="icon" aria-hidden="true">👥</span>
+                Meet Our Team
+            </a>
+        </div>
+    </main>
+
+    <footer class="footer" role="contentinfo">
+        <div class="container-footer">
+            <p>© 2025 Legacy Computer Services LTD. All rights reserved.</p>
+        </div>
+        <div>
+            <h5>BCS/BSE</h5>
+        </div>
+        <div class="footer-img" >
+            <img src="./assets/facebook_220200.png" alt="Facebook" style="width: 1rem; height: 1rem;">
+            <img src="./assets/instagram.png" alt="Instagram" style="width: 1rem; height: 1rem;">
+            <img src="./assets/whatsapp.png" alt="whatsapp" style="width: 1rem; height: 1rem;">
+        </div>
+    </footer>
+</body>
+</html>
